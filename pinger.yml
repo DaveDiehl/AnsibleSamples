@@ -1,0 +1,11 @@
+---
+
+- name: install ha proxy load balancer
+  hosts:  all
+  become: yes
+
+  tasks: 
+  - name: ping everyone
+    ping:
+
+~                                
